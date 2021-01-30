@@ -1,2 +1,12 @@
 # simple-chatbot
-Python chatbot with Flask web server
+Python chatbot with Flask web server.
+
+You also will find a CloudFormation template for a EC2 in order to deploy your chatbot :)
+
+## Running locally
+
+```
+pip install -r requirements.txt
+python3 -m spacy download em
+python3 app.py
+```
