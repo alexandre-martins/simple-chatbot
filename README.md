@@ -6,7 +6,7 @@ You also will find a CloudFormation template for a EC2 in order to deploy your c
 ## Running locally
 
 ```
-pip install -r requirements.txt
+pip install -r src/requirements.txt
 python3 -m spacy download em
-python3 app.py
+python3 src/app.py
 ```
